@@ -1,0 +1,33 @@
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.section__header {
+   font-family: 'Raleway';
+   font-size: 36px;
+   font-weight: 400;
+   line-height: 43px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.section__separator {
+    display: block;
+    justify-content: center;
+    margin: 0 auto 40px;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+}
+
+.section__subtitle {
+   font-family: 'Raleway';
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 22px;
+   text-align: center;
+   margin-bottom: 110px;
+}
