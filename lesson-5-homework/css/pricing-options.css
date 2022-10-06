@@ -65,12 +65,12 @@
   margin-bottom: 50px;
 }
 
-.wrapper__cards .cards__element:nth-child(2) {
-  box-shadow: 0px 4px 10px 0px rgba(51, 51, 51, 0.2);
-  margin-top: -33px;
-  margin-bottom: 90px;
-}
-
 .section-title {
   margin-bottom: 79px;
+}
+
+.cards__element--active {
+  box-shadow: 0px 4px 10px 0px rgba(51, 51, 51, 0.2);
+  transform: translateY(-15px);
+  margin-bottom: 70px;
 }
