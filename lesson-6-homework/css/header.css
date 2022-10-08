@@ -1,0 +1,73 @@
+.header {
+  padding: 15px 0;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navigation-list__item:not(:last-child) {
+  margin-right: 36px;
+}
+
+.navigation-list__item a {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #212a2f;
+  text-decoration: none;
+}
+
+.icon-button {
+  border: none;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.header__logo {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.user-actions {
+  align-items: center;
+}
+
+.user-actions__wrap {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navigation {
+  display: flex;
+  margin-right: 21px;
+}
+
+.icon-button img {
+  width: 100%;
+  height: 100%;
+}
+
+.user-actions :nth-child(3) {
+  margin-right: 0px;
+}
+
+.user-actions :nth-child(2) {
+  margin-right: 16px;
+}
