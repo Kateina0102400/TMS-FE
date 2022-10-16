@@ -71,3 +71,13 @@
 .user-actions :nth-child(2) {
   margin-right: 16px;
 }
+
+button .icon-button {
+  width: 25px;
+  height: 25px;
+}
+
+.user-actions a {
+  color: #212a2f;
+  margin-right: 20px;
+}
