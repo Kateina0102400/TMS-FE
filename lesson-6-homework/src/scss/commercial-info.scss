@@ -1,0 +1,146 @@
+.commercial-info {
+  padding-top: 52px;
+  padding-bottom: 134px;
+
+  @media (max-width: 1126px) {
+    .catalogue-wrap {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 15px;
+    }
+  }
+
+  @media (max-width: 567px) {
+    .catalogue-wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 567px) {
+    .catalogue-item {
+      width: 90%;
+      margin-right: 0;
+    }
+
+    .catalogue__title {
+      text-align: center;
+    }
+  }
+}
+
+.commercial-info__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.commercial-info__subtitle {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.commercial-info__btn {
+  background-color: #212a2f;
+  border: none;
+  width: 180px;
+  height: 48px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-right: 24px;
+}
+
+.commercial-info__btn:last-child {
+  margin-right: 0;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 119px;
+}
+
+.catalogue__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 24px;
+}
+
+.catalogue__img {
+  margin-bottom: 17px;
+}
+
+.catalogue__img img {
+  width: 100%;
+}
+
+.catalogue__name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 10px;
+}
+
+.catalogue__desc {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.catalogue-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalogue-item {
+  width: 33.333%;
+  margin-right: 24px;
+}
+
+.catalogue-item:last-child {
+  margin-right: 0;
+}
+
+.catalogue-items__wrap {
+  padding-left: 20px;
+}
+
+.commercial-info__text {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 645px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 26px;
+}
+
+.commercial-info__button {
+  display: block;
+  margin: 0 auto;
+  width: 384px;
+  height: 48px;
+  border: none;
+  background-color: #212a2f;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  color: white;
+  margin-bottom: 134px;
+}

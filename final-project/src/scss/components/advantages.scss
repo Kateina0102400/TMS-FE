@@ -1,0 +1,80 @@
+.project-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+.project-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-advantage__title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 28px;
+  color: #2d3033;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-advantage__description {
+  max-width: 370px;
+  text-align: center;
+}
+
+.project-advantage {
+  width: 33.333%;
+  margin-right: 31px;
+}
+
+.project-advantage:last-child {
+  margin-right: 0;
+}
+
+.wrap-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-advantages {
+  .wrap-items:nth-child(1) {
+    margin-bottom: 97px;
+  }
+}
+
+.project-advantages {
+  padding-top: 120px;
+
+  @media (max-width: 1050px) {
+    .project-advantage__title {
+      font-size: 1.125rem;
+    }
+
+    .project-advantage__description {
+      font-size: 0.875rem;
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding-top: 58px;
+    .wrap-items {
+      flex-direction: column;
+    }
+
+    .project-advantage {
+      width: 100%;
+      margin-bottom: 49px;
+    }
+
+    .project-advantage__description {
+      max-width: 279px;
+      margin: 0 auto;
+    }
+
+    .project-icon {
+      margin: 0 auto;
+    }
+  }
+}
