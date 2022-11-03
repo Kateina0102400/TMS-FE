@@ -1,7 +1,6 @@
 .project-icon {
   width: 100px;
   height: 100px;
-  margin-bottom: 40px;
   margin: 0 auto;
 }
 
@@ -16,6 +15,7 @@
   line-height: 28px;
   color: #2d3033;
   margin-bottom: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -24,10 +24,10 @@
   text-align: center;
 }
 
-.project-advantage {
+/*.project-advantage {
   width: 33.333%;
   margin-right: 31px;
-}
+}*/
 
 .project-advantage:last-child {
   margin-right: 0;
@@ -35,17 +35,20 @@
 
 .wrap-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .project-advantages {
-  .wrap-items:nth-child(1) {
+  .project-advantage:nth-child(1) {
     margin-bottom: 97px;
   }
 }
 
 .project-advantages {
   padding-top: 120px;
+
+  padding-bottom: 133px;
 
   @media (max-width: 1050px) {
     .project-advantage__title {
@@ -55,9 +58,16 @@
     .project-advantage__description {
       font-size: 0.875rem;
     }
+
+    .wrap-items {
+      display: flex;
+
+      justify-content: space-between;
+    }
   }
 
   @media (max-width: 450px) {
+    padding-bottom: 34px;
     padding-top: 58px;
     .wrap-items {
       flex-direction: column;

@@ -134,6 +134,20 @@
   font-size: 13px;
   font-weight: 700;
   line-height: 16px;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 35px;
+}
+
+.header-navigation__item a:hover {
+  border-bottom: 3px solid #babbc5;
+}
+
+.header-navigation__item a:active {
+  border-bottom: 3px solid #e71414;
+}
+
+.header-navigation__item a:active {
+  color: #e71414;
 }
 
 .separator {
@@ -188,17 +202,11 @@
   line-height: 28px;
 }
 
-.header-navigation__item:hover {
-  border-bottom: 3px solid #babbc5;
-  width: 134px;
-  text-align: center;
-}
-
-.header-navigation__item:active {
+/*.header-navigation__item:active {
   a {
     color: #e71414;
   }
   border-bottom: 3px solid #e71414;
   width: 134px;
   text-align: center;
-}
+}*/
