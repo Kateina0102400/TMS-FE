@@ -73,6 +73,9 @@
   }
 
   @media (max-width: 386px) {
+    .container {
+      padding: 0 20px;
+    }
     .main-screen__title {
       font-size: 2.25rem;
       line-height: 43px;
@@ -201,12 +204,3 @@
   font-size: 1.5rem;
   line-height: 28px;
 }
-
-/*.header-navigation__item:active {
-  a {
-    color: #e71414;
-  }
-  border-bottom: 3px solid #e71414;
-  width: 134px;
-  text-align: center;
-}*/

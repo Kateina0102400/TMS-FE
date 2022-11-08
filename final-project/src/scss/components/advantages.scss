@@ -66,6 +66,23 @@
     }
   }
 
+  @media (max-width: 770px) {
+    .wrap-items {
+      justify-content: center;
+    }
+
+    .project-advantage {
+      margin-bottom: 45px;
+    }
+    .project-advantage:last-child {
+      margin-bottom: 0;
+    }
+
+    .project-advantage:nth-child(1) {
+      margin-bottom: 45px;
+    }
+  }
+
   @media (max-width: 450px) {
     padding-bottom: 34px;
     padding-top: 58px;

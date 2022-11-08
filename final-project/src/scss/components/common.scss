@@ -31,8 +31,15 @@ body {
   }
 
   @media (max-width: 386px) {
+    .download__title {
+      font-size: 1.125rem;
+    }
+
+    .download__subtitle {
+      font-size: 0.8125rem;
+    }
     .button {
-      padding: 15px 30px;
+      padding: 10px 20px;
     }
 
     .container {

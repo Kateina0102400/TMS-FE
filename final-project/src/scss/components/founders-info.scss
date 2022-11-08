@@ -9,6 +9,10 @@
 
 .founders-info {
   padding-bottom: 114px;
+
+  @media (max-width: 745px) {
+    padding-bottom: 34px;
+  }
 }
 
 .founder-info__position {
@@ -49,16 +53,6 @@
       font-size: 1.125rem;
     }
   }
-
-  /*@media (max-width: 745px) {
-    .founders-info__wrap {
-      flex-direction: column;
-    }
-
-    .founder-info {
-      width: 100%;
-    }
-  }*/
 }
 
 .founders-info__socials {
